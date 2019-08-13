@@ -3,7 +3,7 @@ import QtQuick 2.0
 QtObject {
 
 	// global preferences
-	readonly property bool camelotKey: 				true
+	readonly property bool camelotKey: 				false
 	readonly property int  phraseLength:            4
 
 	// browser preferences
@@ -11,20 +11,20 @@ QtObject {
 	readonly property bool displayMoreItems:		true
 
 	// deck preferences
-	readonly property bool displayAlbumCover:		true
+	readonly property bool displayAlbumCover:		false
 	readonly property bool displayHotCueBar:		true
 	readonly property bool displayPhaseMeter:		true
 	readonly property bool spectrumWaveformColors:	true
- 	readonly property variant mixerFXNames:         ["FLTR", "MFX 1", "MFX 2", "MFX 3", "MFX 4"] // do not change FLTR
+ 	readonly property variant mixerFXNames:         ["FLTR", "REVERB", "DELAY", "BPole", "DBL"] // do not change FLTR
 
 	// deck header text (use -1 to turn off)
 
-	readonly property int topLeftText:      0
-	readonly property int topCenterText:    14
-	readonly property int topRightText:     12
+	readonly property int topLeftText:      1
+	readonly property int topCenterText:    17
+	readonly property int topRightText:     31
 
 	readonly property int middleLeftText:   1
-	readonly property int middleCenterText: 31
+	readonly property int middleCenterText: 18
 	readonly property int middleRightText:  24
 
 	readonly property int bottomLeftText:   19
