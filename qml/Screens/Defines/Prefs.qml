@@ -19,17 +19,17 @@ QtObject {
 
 	// deck header text (use -1 to turn off)
 
-	readonly property int topLeftText:      1
+	readonly property int topLeftText:      0
 	readonly property int topCenterText:    17
-	readonly property int topRightText:     31
+	readonly property int topRightText:     10
 
 	readonly property int middleLeftText:   1
-	readonly property int middleCenterText: 18
-	readonly property int middleRightText:  24
+	readonly property int middleCenterText: 9
+	readonly property int middleRightText:  16
 
 	readonly property int bottomLeftText:   19
 	readonly property int bottomCenterText: 15
-	readonly property int bottomRightText:  28
+	readonly property int bottomRightText:  22
 
 	// options:
 	//
