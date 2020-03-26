@@ -16,6 +16,7 @@
   - Global: User defined phrase length (set in prefs)
   - Browser: Gauges for Key/BPM match (toggle in prefs)
   - Browser: Display 7 or 9 items on screen (toggle in prefs)
+  - Deck: Cycle through MixerFX on S5 by pressing SHIFT + FILTER-ON/OFF
   - Deck: Press SHIFT + FLUX to engage flux reverse
   - Deck: Layout more closely resembles main Traktor layout
   - Deck: All 9 data elements are configurable (set it prefs)
